@@ -503,6 +503,10 @@
      <Compile Include="Assets\MapboxAR\Unity\Ar\SnapAlignmentStrategy.cs" />
      <Compile Include="Assets\MapboxAR\Unity\Ar\Utilities\PlotRoute.cs" />
      <Compile Include="Assets\Scripts\AppManager.cs" />
+     <Compile Include="Assets\Scripts\BackEndMapboxScripts\BackEndMapboxApiLibrary.cs" />
+     <Compile Include="Assets\Scripts\BackEndMapboxScripts\Coordinates.cs" />
+     <Compile Include="Assets\Scripts\BackEndMapboxScripts\InvalidProfileNumberException.cs" />
+     <Compile Include="Assets\Scripts\BackEndMapboxScripts\SystemConfiguration.cs" />
      <Compile Include="Assets\Scripts\Camera\TouchCamera.cs" />
      <Compile Include="Assets\Scripts\UI\SidePanelBehaviour.cs" />
      <Compile Include="Assets\UnityARInterface\ARRemote\Scripts\ARRemoteDevice.cs" />
@@ -820,6 +824,9 @@
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
         <HintPath>/Users/vutheduc/Documents/UTS/Software/(Now)2020Autumn/SES3A/SES3A/New Unity Project/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/vutheduc/Documents/UTS/Software/(Now)2020Autumn/SES3A/SES3A/New Unity Project/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
